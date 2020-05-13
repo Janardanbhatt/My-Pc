@@ -1,0 +1,48 @@
+import renderHTML from 'react-render-html';
+
+export const STRCommon = {
+  common: {
+    default: {
+      schedule_service: 'SCHEDULE APPOINTMENT',
+      see_more_offers: '<span  id="change-your-dealer" style="padding-right: 30px; padding-left: 30px;">SEE MORE OFFERS</span>',
+      passion_for_your_mazda: renderHTML('FOR THE BEST RIDE AND COMFORT CHOOSE MAZDA APPROVED TIRES'),
+      visit_fitting_room: 'Visit The Fitting Room',
+      visit_website: 'VISIT WEBSITE',
+      print_offer: 'PRINT',
+      model: 'MODEL',
+      model_year: 'MODEL YEAR(S)',
+      lang: 'English',
+      close: 'CLOSE',
+      search_now: 'SEARCH NOW',
+      select: 'SELECT',
+      your: 'YOUR',
+      update: 'UPDATE',
+      detail: 'Details',
+      status: 'Status',
+      recall: 'Recall',
+      repair: 'Repair',
+      safty_risk: 'Safty Risk',
+      back_to_top: 'BACK TO TOP',
+      date: 'Date',
+      scan: ' SCAN',
+      invalid_vin: `The VIN you entered is invalid. Please check and retype your VIN.`,
+      vin: 'VIN',
+      authorized_dealer_header: 'YOUR AUTHORIZED DEALER',
+      quote_tires: renderHTML('QUOTE YOUR TIRES'),
+      personalize: 'PERSONALIZE YOUR MAZDA',
+      accessorize: 'ACCESSORIES YOUR MAZDA',
+      lang_1: renderHTML('<span style="color: #4d4d4d;  cursor:pointer; font-size: 12px;"> ENGLISH</span>'),
+      lang_2: renderHTML('<span style="color: #fff; cursor:pointer; font-size: 12px;"> FRANÇAIS</span>'),
+        lang_3: renderHTML('<span style="color: #969696; cursor:pointer; font-size: 12px;"> ENGLISH</span>'),
+        lang_4: renderHTML('<span style="color: #4d4d4d; cursor:pointer; font-size: 12px;"> FRANÇAIS</span>'),
+      genuine_break_maintain_h5:'genuine brake maintenance',
+      benifits_of_mazda_brake_h1:'the benefits of Mazda brake maintenance',
+      benifits_of_mazda_brake_p:'There is no better time than spring to clean and service your brakes from the salt and debris that accumulate during winter. Compared to after-market brake pads and rotors, Mazda Genuine parts are engineered with your vehicle in mind, so they last longer and work better. Allowing you to spend more time on the road and less time worrying about maintenance.',
+      genuine_mazda_accessories_h1:'Genuine Mazda Accessories',
+      genuine_mazda_accessories_p:renderHTML('Genuine Mazda Accessories are the perfect fit for your vehicle and designed for your active lifestyle. Outfit your vehicle with a Genuine Mazda roof rack<sup>†</sup>, cargo box<sup>†</sup>, trailer hitch mounted bike rack<sup>†</sup>, or low wall all-weather floor mats<sup>†</sup> and make sure you’re ready for any journey this spring.'),
+      maintain_your_joy_h1:'Maintain your joy',
+      maintain_your_joy_p:'Visit your Mazda Clubhouse for expert detailing service, and rediscover the beauty and craftsmanship that made you fall in love with your Mazda.',
+      header_dealer_name:renderHTML('<a href="#" alt="Dealer Name" class="deal-name">&lt; Dealer name &gt;</a>'),
+    }
+  }
+};
